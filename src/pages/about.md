@@ -1,36 +1,29 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Hey"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+I am a French developer mainly working on web backend technologies. I'm more of Jack of all trades, I like to learn new things and hop on fresh interests.
+I am a huge fan of technology in general, music and video games.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Here I mainly talk about what I learn, what I want to learn, what I just bought and basically anything that comes to my mind.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+If you're more interested in the technical side of things, you can check out my [GitHub](https://github.com/RangoDisco)
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+The source code for this blog is also available [here](https://github.com/RangoDisco/blog)
 
-## Tech Stack
+[//]: # "<div>"
+[//]: # '  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">'
+[//]: # "</div>"
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+## The blog itself
 
-## Features
+This blog is made using [Astro](https://astro.build/), and the [astro-paper](https://github.com/satnaing/astro-paper) theme.
+So that means:
 
-Here are certain features of this site.
+- Typescript/Javascript
+- TailwindCSS
+- React
+- And of course, Markdown
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Feel free to ask me anything of give me feedback via my [email](mailto:rango@posteo.net).
