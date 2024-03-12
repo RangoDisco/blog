@@ -15,7 +15,7 @@ description: Mini review of the Audeze Maxwell headset and why I switched from a
 
 I've been using a [Sennheiser HD650](https://www.sennheiser-hearing.com/en-US/p/hd-650/) along side with
 a [Presonus Studio 26c](https://www.presonus.com/en-US/interfaces/usb-audio-interfaces/studio-series/2777700404.html)
-for about 3 years now and I wished to a wireless setup as much a possible for aesthetic reasons.
+for about 3 years now and I wished to have a wireless setup as much a possible for aesthetic reasons.
 My keyboard and my mouse already being wireless, my headset was the next change in line.
 
 ## Table of contents
@@ -51,6 +51,11 @@ Maxwell also had the advantage of being bluetooth compatible (mic included)
 
 ### Audio
 
+If you're interested by a more in depth, technical comparison, I would recommend you to check out rtings.com as they always do fantastic review:
+
+- [HD650](https://www.rtings.com/headphones/reviews/sennheiser/hd-650)
+- [Maxwell](https://www.rtings.com/headphones/reviews/audeze/maxwell-wireless)
+
 #### HD650
 
 The HD650 was the best headset I've ever used, and to cut the suspense short, it still is.
@@ -60,7 +65,8 @@ its appearance may indicates.
 
 Its audio profile is really neutral with basses a bit more pronounced than its legendary sibling
 the [HD600](https://www.sennheiser-hearing.com/en-US/p/hd-600/) which made me choose it back then.
-![HD650 frequency response graph](https://diyaudioheaven.files.wordpress.com/2018/01/hd600-vs-hd650.png?w=584)
+![HD650 frequency response graph](@assets/images/going-wireless/maxwell-graph.png)
+_Courtesy of [rtings.com](https://www.rtings.com/headphones/1-5/graph/7903/frequency-response/sennheiser-hd-650/245)_
 
 Its only flaw to my eyes is not being wireless.
 
@@ -74,7 +80,8 @@ Its sound profile is still very neutral, but a tiny bit "boomy" or "thumpy" if t
 The headset comes with a software that allows you to chose between mulitple EQ presets or even tune it yourself, which
 is really sweet.
 
-![Audeze Maxwell frequency response graph](https://headphones.com/cdn/shop/files/Maxwell_Graph_Default.jpg?v=1696609741&width=2000)
+![Audeze Maxwell frequency response graph](@assets/images/going-wireless/maxwell-graph.png)
+_Courtesy of [rtings.com](https://www.rtings.com/headphones/1-6/graph/21550/frequency-response/audeze-maxwell-wireless/37448)_
 
 But to me, the biggest offender is the closed back nature of the headset, I really liked the sound stage an open back
 one provided and over long period of wear, it made a night and day difference in how my head felt.
