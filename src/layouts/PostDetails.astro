@@ -20,6 +20,7 @@ const {
   author,
   description,
   ogImage,
+  readingTime,
   canonicalURL,
   pubDatetime,
   modDatetime,
@@ -38,6 +39,7 @@ const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
   description,
+  readingTime,
   pubDatetime,
   modDatetime,
   canonicalURL,
@@ -56,13 +58,17 @@ const layoutProps = {
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
     <button
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
-      onclick="(() => (history.length === 1) ? window.location = '/' : history.back())()"
+      onclick="(() => (history.length === 1) ? window.location = "
+      "
+      :
+      history.back())();"
     >
-      <svg xmlns="http://www.w3.org/2000/svg"
-        ><path
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <path
           d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
         ></path>
-      </svg><span>Go back</span>
+      </svg>
+      <span>Go back</span>
     </button>
   </div>
   <main id="main-content">
@@ -70,6 +76,7 @@ const layoutProps = {
     <Datetime
       pubDatetime={pubDatetime}
       modDatetime={modDatetime}
+      readingTime={readingTime}
       size="lg"
       className="my-2"
     />
@@ -106,6 +113,7 @@ const layoutProps = {
   main {
     @apply mx-auto w-full max-w-3xl px-4 pb-12;
   }
+
   .post-title {
     @apply text-2xl font-semibold text-skin-accent;
   }
@@ -131,6 +139,7 @@ const layoutProps = {
     // Append the progress container to the document body or any other desired parent element
     document.body.appendChild(progressContainer);
   }
+
   createProgressBar();
 
   /** Update the progress bar
@@ -149,6 +158,7 @@ const layoutProps = {
       }
     }
   }
+
   document.addEventListener("scroll", updateScrollProgress);
 
   /** Attaches links to headings in the document,
@@ -165,6 +175,7 @@ const layoutProps = {
       heading.appendChild(link);
     }
   }
+
   addHeadingLinks();
 
   /** Attaches copy buttons to code blocks in the document,
@@ -207,6 +218,7 @@ const layoutProps = {
       }, 700);
     }
   }
+
   attachCopyButtons();
 
   /** Scrolls the document to the top when
@@ -217,5 +229,6 @@ const layoutProps = {
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     });
   }
+
   backToTop();
 </script>
