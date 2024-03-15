@@ -58,7 +58,10 @@ const layoutProps = {
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
     <button
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
-      onclick="(() => (history.length === 1) ? window.location = '/' : history.back())();"
+      onclick="(() => (history.length === 1) ? window.location = "
+      "
+      :
+      history.back())();"
     >
       <svg xmlns="http://www.w3.org/2000/svg">
         <path
@@ -139,6 +142,26 @@ const layoutProps = {
 
   createProgressBar();
 
+  function createJiji() {
+    const jiji = document.createElement("img");
+    jiji.src = "/assets/jiji.png";
+    jiji.id = "jiji";
+    jiji.className = "fixed bottom-0 right-0 z-10 w-32 h-32 display-none";
+    const main = document.getElementById("main-content");
+    main.appendChild(jiji);
+  }
+
+  function toggleJiji(action) {
+    const jiji = document.getElementById("jiji");
+    if (action === "display") {
+      jiji.style.display = "block";
+    } else {
+      jiji.style.display = "none";
+    }
+  }
+
+  createJiji();
+
   /** Update the progress bar
    *  when user scrolls */
   function updateScrollProgress() {
@@ -152,6 +175,13 @@ const layoutProps = {
       const myBar = document.getElementById("myBar");
       if (myBar) {
         myBar.style.width = scrolled + "%";
+
+        // Add peaking JIJI
+        if (scrolled > 50) {
+          toggleJiji("display");
+        } else {
+          toggleJiji("hide");
+        }
       }
     }
   }
