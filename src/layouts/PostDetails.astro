@@ -146,18 +146,9 @@ const layoutProps = {
     const jiji = document.createElement("img");
     jiji.src = "/assets/jiji.png";
     jiji.id = "jiji";
-    jiji.className = "fixed bottom-0 right-0 z-10 w-32 h-32 display-none";
+    jiji.className = "fixed bottom-0 right-0 z-10 w-16 h-16";
     const main = document.getElementById("main-content");
     main.appendChild(jiji);
-  }
-
-  function toggleJiji(action) {
-    const jiji = document.getElementById("jiji");
-    if (action === "display") {
-      jiji.style.display = "block";
-    } else {
-      jiji.style.display = "none";
-    }
   }
 
   createJiji();
@@ -175,13 +166,6 @@ const layoutProps = {
       const myBar = document.getElementById("myBar");
       if (myBar) {
         myBar.style.width = scrolled + "%";
-
-        // Add peaking JIJI
-        if (scrolled > 50) {
-          toggleJiji("display");
-        } else {
-          toggleJiji("hide");
-        }
       }
     }
   }
