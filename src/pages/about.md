@@ -15,7 +15,7 @@ If you're more interested in the technical side of things, you can check out my 
 The source code for this blog is also available [here](https://github.com/RangoDisco/blog)
 
 <div>
-  <img src="/assets/stars.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/stars.png" class="sm:w-1/3 mx-auto" alt="stars">
 </div>
 
 ## The blog itself
