@@ -97,6 +97,7 @@ const socialImageURL = new URL(
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
       // include google-site-verification tag in the heading
       // Learn more: https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag
+
       googleSiteVerification && (
         <meta
           name="google-site-verification"
@@ -108,6 +109,10 @@ const socialImageURL = new URL(
     <ViewTransitions />
 
     <script is:inline src="/toggle-theme.js"></script>
+    <script
+      defer
+      src="https://analytics.blog.rangodisco.eu/script.js"
+      data-website-id="a264c63e-6b1b-441e-9af2-d2336aed02a9"></script>
   </head>
   <body>
     <slot />
