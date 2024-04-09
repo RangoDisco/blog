@@ -1,9 +1,9 @@
 ---
 author: Rango
 pubDatetime: 2024-03-12T18:28:00Z
-modDatetime: 2024-03-12T18:28:00Z
+modDatetime: 2024-04-09T19:21:00Z
 title: Going wireless again
-slug: goind-wireless-again
+slug: going-wireless-again
 featured: true
 draft: false
 tags:
