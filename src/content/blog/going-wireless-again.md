@@ -1,7 +1,7 @@
 ---
 author: Rango
 pubDatetime: 2024-03-12T18:28:00Z
-modDatetime: 2024-04-09T19:21:00Z
+modDatetime: 2024-10-08T07:21:00Z
 title: Going wireless again
 slug: going-wireless-again
 featured: true
@@ -140,3 +140,7 @@ To be honest I really though I would want to go back to the HD650 from time to t
 almost always cannot live without the upgrade I acquire, whether it is 2k resolution (HD now seems fuzzy to me) or 120hz+
 (60hz really seems laggy).\
 But the Maxwell fit that role good enough that I didn't feel the need to do so and I clearly do not regret my choice.
+
+
+### After 7 months
+Hey, so my left hear cup just died.
